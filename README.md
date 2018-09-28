@@ -1,4 +1,4 @@
-# SpringBootSwaggerRESTful4BigchainDb
+# spring-boot-blockchaindb-restful-swagger
 
 A SpringBoot RESTful, SwaggerUI API documentation example for BigchainDb.
 
