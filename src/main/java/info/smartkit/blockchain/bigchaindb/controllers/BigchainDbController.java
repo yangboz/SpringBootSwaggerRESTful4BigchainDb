@@ -27,15 +27,15 @@ import java.util.TreeMap;
 
 
 /**
- * The Class OCRsController.
+ * The Class BigchainDbController.
  */
 @RestController
 // @see: https://github.com/bigchaindb/java-bigchaindb-driver#api-wrappers
 // @see: https://gist.github.com/innoprenuer/d4c6798fe5c0581c05a7e676e175e515
 @RequestMapping(value = "/bigchaindb")
-public class BlockChainDbController {
+public class BigchainDbController {
 	//
-	private static Logger LOG = LogManager.getLogger(BlockChainDbController.class);
+	private static Logger LOG = LogManager.getLogger(BigchainDbController.class);
 
 	@RequestMapping(method = RequestMethod.GET, value = "/config")
 	@ApiOperation(value = "Response a string describing bigchaindb info.")
