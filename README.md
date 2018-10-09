@@ -13,3 +13,5 @@ https://github.com/bigchaindb/bigchaindb
 https://github.com/bigchaindb/java-bigchaindb-driver
 
 https://www.coindesk.com/information/what-is-the-difference-blockchain-and-database/
+
+https://github.com/ipfs/java-ipfs-api.git
