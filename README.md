@@ -17,3 +17,5 @@ https://www.coindesk.com/information/what-is-the-difference-blockchain-and-datab
 https://github.com/ipfs/java-ipfs-api.git
 
 https://projects.spring.io/spring-social/
+
+https://github.com/spring-projects/spring-social-samples/tree/master/spring-social-quickstart
