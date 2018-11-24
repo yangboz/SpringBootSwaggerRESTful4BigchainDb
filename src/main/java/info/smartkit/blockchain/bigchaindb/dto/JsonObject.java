@@ -1,8 +1,5 @@
 package info.smartkit.blockchain.bigchaindb.dto;
 
-/**
- * The Class JsonObject.
- */
 public class JsonObject {
 	public JsonObject(Object data) {
 		this.data = data;
@@ -17,12 +14,5 @@ public class JsonObject {
 
 	public void setData(Object data) {
 		this.data = data;
-	}
-
-	@Override
-	public String toString() {
-		return "JsonObject{" +
-				"data=" + data +
-				'}';
 	}
 }

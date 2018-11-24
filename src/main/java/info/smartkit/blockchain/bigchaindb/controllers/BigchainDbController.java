@@ -9,9 +9,9 @@ import com.bigchaindb.model.GenericCallback;
 import com.bigchaindb.model.MetaData;
 import com.bigchaindb.model.Transaction;
 import com.bigchaindb.util.Base58;
+import com.wordnik.swagger.annotations.ApiOperation;
 import info.smartkit.blockchain.bigchaindb.dto.JsonObject;
 import info.smartkit.blockchain.bigchaindb.dto.JsonString;
-import io.swagger.annotations.ApiOperation;
 import net.i2p.crypto.eddsa.EdDSAPrivateKey;
 import net.i2p.crypto.eddsa.EdDSAPublicKey;
 import okhttp3.Response;
@@ -32,7 +32,7 @@ import java.util.TreeMap;
 @RestController
 // @see: https://github.com/bigchaindb/java-bigchaindb-driver#api-wrappers
 // @see: https://gist.github.com/innoprenuer/d4c6798fe5c0581c05a7e676e175e515
-@RequestMapping(value = "/bigchaindb")
+@RequestMapping(value = "v1/bigchaindb")
 public class BigchainDbController {
 	//
 	private static Logger LOG = LogManager.getLogger(BigchainDbController.class);

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/bigchaindb.iml" filepath="$PROJECT_DIR$/bigchaindb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RESTfulBigchainDb.iml" filepath="$PROJECT_DIR$/RESTfulBigchainDb.iml" />
     </modules>
   </component>
 </project>

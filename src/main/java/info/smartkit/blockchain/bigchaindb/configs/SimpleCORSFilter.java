@@ -1,4 +1,4 @@
-package info.smartkit.blockchain.bigchaindb.configs;
+package crispy_octo_moo.configs;
 
 import java.io.IOException;
 import javax.servlet.Filter;
