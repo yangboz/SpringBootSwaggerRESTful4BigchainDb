@@ -1,4 +1,4 @@
-package crispy_octo_moo.configs;
+package info.smartkit.blockchain.bigchaindb.configs;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;

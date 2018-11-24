@@ -1,13 +1,13 @@
 package info.smartkit.blockchain.bigchaindb.controllers;
 
 
-import com.wordnik.swagger.annotations.ApiOperation;
 import info.smartkit.blockchain.bigchaindb.domain.LiUserProfile;
 import info.smartkit.blockchain.bigchaindb.dto.DknToken;
 import info.smartkit.blockchain.bigchaindb.dto.JsonObject;
 import info.smartkit.blockchain.bigchaindb.dto.LiUserConnection;
 import info.smartkit.blockchain.bigchaindb.repository.LinkedInUserRepository;
 import info.smartkit.blockchain.bigchaindb.services.LinkedInUserService;
+import io.swagger.annotations.ApiOperation;
 import org.scribe.model.*;
 
 import org.slf4j.Logger;
@@ -49,7 +49,7 @@ public class LinkedInConnectController {
     @Autowired
     private LinkedInUserRepository _liUserDao;
 
-    //    @Autowired
+    //@Autowired
     private LinkedIn linkedIn;
 
     @Inject

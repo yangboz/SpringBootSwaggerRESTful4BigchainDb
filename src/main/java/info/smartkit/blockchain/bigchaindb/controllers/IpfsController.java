@@ -1,10 +1,9 @@
 package info.smartkit.blockchain.bigchaindb.controllers;
 
-
-import com.wordnik.swagger.annotations.ApiOperation;
 import info.smartkit.blockchain.bigchaindb.dto.JsonObject;
 import info.smartkit.blockchain.bigchaindb.dto.JsonString;
 import info.smartkit.blockchain.bigchaindb.services.IpfsService;
+import io.swagger.annotations.ApiOperation;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.hibernate.validator.constraints.NotBlank;
