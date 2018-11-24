@@ -19,3 +19,5 @@ https://github.com/ipfs/java-ipfs-api.git
 https://projects.spring.io/spring-social/
 
 https://github.com/spring-projects/spring-social-samples/tree/master/spring-social-quickstart
+
+http://littlebigextra.com/part-2-authorising-user-using-spring-social-google-facebook-linkedin-spring-security/
